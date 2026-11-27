@@ -1,0 +1,32 @@
+EVIDENCIA REMOTA VERIFICADA - GITHUB
+
+Repositorio:
+https://github.com/SiegfriedK04/laboratorio16-multiagentes
+
+Pull request #1:
+https://github.com/SiegfriedK04/laboratorio16-multiagentes/pull/1
+Título: Agregar prioridades con revisión multiagente
+Estado final: MERGED
+Commit de merge: 6473dfc6e7d856e1f67a62adab09fb03374f2c09
+
+Validación del pull request:
+Workflow run: 46037350759
+Job test: PASS (10 s)
+Job delivery: omitido correctamente, porque solo se ejecuta en push a main
+
+Ejecución posterior al merge:
+https://github.com/SiegfriedK04/laboratorio16-multiagentes/actions/runs/46037440803
+Evento: push a main
+Estado: completed
+Conclusión: success
+Job test: success
+Job delivery: success
+
+Artefacto publicado:
+Nombre: paquete-lab
+Artifact ID: 15218785748
+Tamaño: 439 bytes
+Expiración: 25 de febrero de 2027
+Digest: sha256:56c725dcffdef2b8562204b29803a05cb5f813cc350ad3387a9f4839d194c911
+
+La automatización compila tareas.py, crea el paquete y no realiza despliegue.
