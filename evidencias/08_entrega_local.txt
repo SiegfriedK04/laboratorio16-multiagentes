@@ -1,0 +1,6 @@
+Comprobación equivalente al job delivery:
+
+1. python -m compileall -q tareas.py
+2. creación de evidencias/paquete-lab.zip con tareas.py
+
+Resultado: compilación correcta y paquete generado. Esta evidencia local verifica la preparación del artefacto, pero no se presenta como una ejecución de GitHub Actions ni como un despliegue.

@@ -1,11 +1,30 @@
-def agregar(tareas, titulo):
+PRIORIDADES = ("alta", "media", "baja")
+
+
+def _validar_prioridad(prioridad):
+    if prioridad not in PRIORIDADES:
+        raise ValueError("Prioridad no válida")
+    return prioridad
+
+
+def agregar(tareas, titulo, prioridad="media"):
     titulo = titulo.strip()
     if not titulo:
         raise ValueError("Título obligatorio")
-    tarea = {"id": len(tareas) + 1, "titulo": titulo}
+    _validar_prioridad(prioridad)
+    tarea = {
+        "id": len(tareas) + 1,
+        "titulo": titulo,
+        "prioridad": prioridad,
+    }
     tareas.append(tarea)
     return tarea
 
 
 def pendientes(tareas):
     return list(tareas)
+
+
+def filtrar_por_prioridad(tareas, prioridad):
+    _validar_prioridad(prioridad)
+    return [tarea for tarea in tareas if tarea["prioridad"] == prioridad]
