@@ -1,0 +1,15 @@
+Comando: python -m unittest discover -s tests -v
+
+test_agregar ... ok
+test_filtrar_por_prioridad ... ok
+test_filtro_rechaza_prioridad_invalida ... ok
+test_pendientes_devuelve_copia ... ok
+test_prioridad_alta ... ok
+test_prioridad_invalida ... ok
+test_prioridad_por_defecto ... ok
+test_titulo_vacio ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

@@ -1,0 +1,10 @@
+PRUEBA DE RECHAZO CONTROLADA
+
+Se añadió temporalmente una prueba que exigía aceptar la prioridad no autorizada "crítica".
+
+test_prioridad_no_definida ... ERROR
+ValueError: Prioridad no válida
+Ran 1 test
+FAILED (errors=1)
+
+Interpretación: el fallo es correcto porque la especificación MCP solo permite alta, media y baja. La prueba temporal se retiró y la suite autorizada volvió a ejecutarse: 8/8 pruebas aprobadas.
